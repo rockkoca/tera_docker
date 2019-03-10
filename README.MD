@@ -13,6 +13,8 @@
 # USAGE 使用
 
 * `docker run -v path_to_data_folder:/wallet/DATA -p 8080:8080 -p 30000:30000 rockkoca/tera`
+    * path_to_data_folder stores the wallet data. It should be on somewhere of your server.
+    * path_to_data_folder 是挖矿和钱包数据. 需要在你的服务器的某个地方!
 
 * custom port and password (定制密码和端口)
     * `docker run -v path_to_data_folder:/wallet/DATA -e password=tera1 -p 80:8080 -p 30000:30000 rockkoca/tera`
