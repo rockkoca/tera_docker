@@ -12,7 +12,7 @@ RUN ls -al -R
 
 EXPOSE 8080 30000
 
-ENV password=tare
+ENV password=tera
 
 COPY ./run.sh ./run.sh
 
