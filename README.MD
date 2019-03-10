@@ -8,4 +8,4 @@
 #NOTE
 * default ports are 8080 for wallet and 30000 for miner
 * a password is required for docker deployment. Otherwise, you cannot access the wallet
-    * default is tera
+    * default is 'tera'
