@@ -9,3 +9,4 @@
 * default ports are 8080 for wallet and 30000 for miner
 * a password is required for docker deployment. Otherwise, you cannot access the wallet
     * default is 'tera'
+* You also need to set your main IP and port 30000 under NET CONNECT. Otherwise, it does not mine. 
